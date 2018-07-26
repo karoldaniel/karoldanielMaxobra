@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	height: 100vh;
+	background: url('http://www.meuprecon.com.br/blog/wp-content/uploads/2015/05/shutterstock_265022174.jpg')  no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.header__menu{
+	background-color: #2F4F4F;
+	display: flex;
+	justify-content: space-around;
+}
+.menu__logo{
+	height: 7vh;
+}
+a{
+	color: #fff;
+	margin: 15px;
+	/*text-decoration: none;*/
+	text-transform: uppercase;
+}
+.header__div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 10px;
+	margin-top: 15%;
+}
+.button{
+	width: 250px;
+	height: 10vh;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: none; 
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.button:hover{
+	color: #fff;
+	background: rgba(47 , 79, 79, 0.7);
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #ddd;
+	font-family: 'Abel', sans-serif;
+}
+.main__section{
+	padding-top: 20vh; 
+}
+.div1{
+	width: 100%;
+	padding: 10px 40px;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+
+	/*background-color: red;	*/
+}
+.div1--btn{
+	margin-top: 0;
+}
+.mainSection__profissionais{
+	height: 30vh;
+}
+
+.main__somos{
+	background-color: #ddd;
+}
+.section{
+	padding-top: 8%;
+	padding-bottom: 15%;
+	/*text-align: center; */
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.section2{
+	border: 1px solid #000;
+	padding-top:  8%;
+}
+.block{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*background-color: red;*/
+}
+.block-btn{
+	padding:  90px 10px;
+}
+.mainSomos__title{
+	color: #2F4F4F;
+}
+.criadores{
+	height: 25vh;
+	border-radius: 50%;
+}
+.mainSomos__paragrafo{
+	width: 70%;
+	margin-top: 60px;
+
+}
+h1{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sec_foto{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content:left;
+	border-bottom: 1px solid black;
+}
+.img {
+	height: 250px;
+	margin-right: 100px; 
+	margin-left: 100px;
+}
+.perfil{
+	font-size: 20px;
+}
+.info{
+	text-align: center;
+}
+.div_sua_aval {
+}
+.h1_sua_aval{
+	font-size: 25px;
+	text-align: left;
+	padding: 2%;
+}
+.textareaa {
+	width: 20%;
+	margin-left: 100px;
+}
+.radios{
+	text-align: left;
+	margin-left: 100px;
+}
+.botao{
+	margin-left: 100px;
+}
+.div_outras_aval {
+}
+.h1_outras_aval{
+	font-size: 25px;
+	text-align: left;
+	padding: 2%;
+	/*border-top: 1px solid black*/
+}
+.outros_comen{
+	font-size: 15px;
+	text-align: left;
+	padding: 2%;
+	border: 1px solid black
+}
+
+footer{
+	height: 3vh;
+	margin:  40px;
+	text-align: center;
+	/*background-color: #00FA9A;*/
+}
+.footer__icone{
+	height: 5vh;
+}
